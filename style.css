@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  padding: 1em;
+}
+.title{
+  font-size: 4em;
+  color: Blue;
+  text-align: center;
+}
+.card{
+  text-align: center;
+}
+.hero-section{
+  color:red;
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.dice-img, .dice2-img{
+  margin-top: 20px;
+  max-height:100px;
+  display: none;
+}
+.filler-img{
+  max-height: 100px;
+  margin-top: 20px;
+}
+#p1Result, #p2Result{
+  font-size: 1.5em;
+  color: green;
+  font-weight: bold;
+}
+.instruct{
+  margin-top: 3em;
+  text-align: center;
+}
+.instruct h2{
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+.instruct p{
+  font-size: 1.5em;
+}
+
+.play-button{
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.play-button button{
+  padding: 1em 3em 1em 3em;
+  background-color: green;
+  color: white;
+  border: 2px red solid;
+  border-radius: 5%;
+  font-size: 1em;
+  font-weight: 400;
+}
+.hide{
+  display: none;
+}

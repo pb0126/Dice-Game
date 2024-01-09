@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Dice Game</title>
+</head>
+<body>
+  
+  <div>
+    <h1 class="title">Dice Game</h1>
+  </div>
+
+  <div class="container">
+    <div class="hero-section">
+      <div class="card">
+        <h2>Player 1</h2>
+        <div>
+          <img class="dice-img" src="/assets/img/one.png" alt="dice face one">
+          <img class="dice-img" src="/assets/img/two.png" alt="dice face two">
+          <img class="dice-img" src="/assets/img/three.png" alt="dice face three">
+          <img class="dice-img" src="/assets/img/four.png" alt="dice face four">
+          <img class="dice-img" src="/assets/img/five.png" alt="dice face five">
+          <img class="dice-img" src="/assets/img/six.png" alt="dice face six">
+          <img class="filler-img" src="/assets/img/dice-game.png" alt="gaming">
+        </div>
+        <div id="p1Result">
+          <p>All the Best!</p>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Player 2</h2>
+        <div>
+          <img class="dice2-img" src="/assets/img/one.png" alt="dice face one">
+          <img class="dice2-img" src="/assets/img/two.png" alt="dice face two">
+          <img class="dice2-img" src="/assets/img/three.png" alt="dice face three">
+          <img class="dice2-img" src="/assets/img/four.png" alt="dice face four">
+          <img class="dice2-img" src="/assets/img/five.png" alt="dice face five">
+          <img class="dice2-img" src="/assets/img/six.png" alt="dice face six">
+          <img class="filler-img" src="/assets/img/dice-game.png" alt="gaming">
+        </div>
+        <div id="p2Result">
+          <p>All the Best!</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="instruct">
+      <h2>Instructions :-</h2>
+      <p>Press the play button to play. Every time you press Play button, the game will generate random dice no.</p>
+      <p>Happy playing!</p>
+    </div>
+  
+    <div class="play-button" id="play">
+      <button onclick="result()">Play</button>
+    </div>
+  </div>
+
+  <script src="/main.js" ></script>
+</body>
+</html>
